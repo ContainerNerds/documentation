@@ -39,19 +39,22 @@ In this section you will find information valuable to being an apache web server
 These are directory locations that are critical to understand and become familar with as you begin working with web sites on your systems.
 
 **Configuration**
+
 System | Directory
 -|-
 ![centos](https://s3.amazonaws.com/bucket01.containernerds.com/icons/iconfinder_centos_92573.png) CentOS|/etc/httpd
 ![ubuntu](https://s3.amazonaws.com/bucket01.containernerds.com/icons/iconfinder_ubuntu_386503.png) Ubuntu|/etc/apache2
 
 **Log Directories**
+
 System | Directory | Use
------|----- |-
+-|-|-
 ![centos](https://s3.amazonaws.com/bucket01.containernerds.com/icons/iconfinder_centos_92573.png) CentOS|/var/log/httpd|default log location for httpd
 ![ubuntu](https://s3.amazonaws.com/bucket01.containernerds.com/icons/iconfinder_ubuntu_386503.png) Ubuntu |/var/log/apache2|default log location for apache2
 
 
 **Virtual Host Locations**
+
 Directory|Description
 -|-
 /etc/apache2/sites-available | (Active/Disabled) Virtual Hosts
